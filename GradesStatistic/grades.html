@@ -1,0 +1,69 @@
+<!-- porgram przechowuje studentów oceny przedmioty dodawanie elementów usunięcie elementu modyfikacja elementu obliczanie średniej z przedmiotu , śrdenia dla studenta-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <table id="table1">
+        <thead>
+            <tr>
+                <th>Student</th>
+                <th>Ocena</th>
+                <th>Przedmiot</th>
+            </tr>
+        </thead>
+     
+
+    </table>
+    <button onclick="add()">Add</button>
+    <button id="avg">AVG</button>
+
+    <table id="table2">
+        <thead>
+            <th>Przedmiot</th>
+            <th>Średnia</th>
+        </thead>
+    </table>
+
+    <table id="table3">
+        <thead>
+            <th>Student</th>
+            <th>Średnia</th>
+        </thead>
+    </table>
+    <br>
+    <canvas id="canvas"
+              width="400"
+              height="300"
+              style="border:1px solid #000000;"
+              class="img-fluid"
+              >
+        Wygląda na to, że twoja przeglądarka nie obsługuje elementu "canvas" / It looks like your browser does not support the "canvas" element
+      </canvas>
+      <br>
+      <canvas id="canvas2"
+              width="400"
+              height="300"
+              style="border:1px solid #000000;"
+              class="img-fluid"
+              >
+        Wygląda na to, że twoja przeglądarka nie obsługuje elementu "canvas" / It looks like your browser does not support the "canvas" element
+      </canvas>
+
+
+    <script src="script.js">
+    </script>
+
+</body>
+
+</html>
