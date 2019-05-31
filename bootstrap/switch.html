@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- Page title -->
+
+    <title>
+        Tytuł strony
+    </title>
+</head>
+<header>
+</header>
+
+<body class="bg-secondary">
+
+    <nav class="navbar-nav  sticky-top py-1 bg-dark">
+        <div class="container d-flex flex-column flex-md-row justify-content-between">
+            <a>
+                <div class="container d-flex justify-content-center p-2" style="font-size: 24px;"> <i
+                        class="fas fa-mountain"></i></div>
+            </a>
+            <a class="nav-link active" href="#" id="navbardrop" data-toggle="dropdown" style="color:white"><i
+                    class="fas fa-align-justify"></i></a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Link 1</a>
+                <a class="dropdown-item" href="#">Link 2</a>
+            </div>
+            <a class="nav-link  d-none d-md-inline-block active text-white"
+                href="file:///C:/Users/rafal/Documents/JS/lab1/bootstrap/Controlling.html">Controlling Execution</a>
+            <a class="nav-link  d-none d-md-inline-block active text-white"
+                href="file:///C:/Users/rafal/Documents/JS/lab1/bootstrap/bootstrap.html">Mountain</a>
+
+        </div>
+    </nav>
+
+    <h1 class="text-center">Controlling Execution</h1>
+    <div class="container">
+        <div class="row">
+                <div class="col-sm-2">
+                        <a class="nav-link   active text-white"
+                            href="file:///C:/Users/rafal/Documents/JS/lab1/bootstrap/true.html">true and false</a>
+                    </div>
+                    <div class="col-sm-2">
+                        <a class="nav-link   active text-white"
+                            href="file:///C:/Users/rafal/Documents/JS/lab1/bootstrap/iteration.html">Iteration</a>
+                    </div>
+                    <div class="col-sm-2">
+                        <a class="nav-link  active text-white"
+                            href="file:///C:/Users/rafal/Documents/JS/lab1/bootstrap/Foreach.html">Foreach syntax</a>
+                    </div>
+                    <div class="col-sm-2">
+        
+                        <a class="nav-link   active text-white"
+                            href="file:///C:/Users/rafal/Documents/JS/lab1/bootstrap/return.html">return</a>
+                    </div>
+                    <div class="col-sm-2">
+        
+                        <a class="nav-link   active text-white"
+                            href="file:///C:/Users/rafal/Documents/JS/lab1/bootstrap/switch.html">switch</a>
+                    </div>
+        </div>
+    </div>
+        <main>
+
+
+            <h1 class="text-center">switch    </h1>
+            <div class="container text-center">
+                    Integral-selector is an expression that produces an integral value. The switch compares the result of integral-selector to each integral-value. If it finds a match, the corresponding statement (a single statement or multiple statements; braces are not required) executes. If no match occurs, the default statement executes.  
+            </div>
+<br>
+<br>
+            <div class="container text-center">
+                    You will notice in the preceding definition that each case ends with a break, which causes execution to jump to the end of the switch body. This is the conventional way to build a switch statement, but the break is optional. If it is missing, the code for the following casestatements executes until a break is encountered. Although you don’t usually want this kind of behavior, it can be useful to an experienced programmer. Note that the last statement, following the default, doesn’t have a break because the execution just falls through to where the break would have taken it anyway. You could put a break at the end of the default statement with no harm if you considered it important for style’s sake.
+
+
+            </div>
+            <div class="container text-center">
+                    The switch statement is a clean way to implement multiway selection (i.e., selecting from among a number of different execution paths), but it requires a selector that evaluates to an integral value, such as int or char. If you want to use, for example, a string or a floating 
+                    point number as a selector, it won’t work in a switch statement. For non-integral types, you must use a series of if statements. At the end of the next chapter, you’ll see that Java SE5’s new enum feature helps ease this restriction, as enums are designed to work nicely with switch.
+            </div>
+           
+            
+            </main>
+        
+
+    <br>
+    <br>
+    <br>
+
+
+
+
+
+   
+
+    <footer class="container-fluid  border-top bg-dark fixed-bottom">
+        <!-- Tutaj treść stopki / Here the content of the footer -->
+
+        <h2 class="text-center text-white">Rafał Lisak</h2>
+
+
+    </footer>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
